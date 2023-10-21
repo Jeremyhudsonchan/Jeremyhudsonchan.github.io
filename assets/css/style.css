@@ -159,7 +159,9 @@ body { background: var(--smoky-black); }
 
 
 
-
+body {
+  color: white;
+}
 
 /*-----------------------------------*\
   #REUSED STYLE
@@ -319,6 +321,7 @@ main {
   max-height: 112px;
   overflow: hidden;
   transition: var(--transition-2);
+  width: 200px;
 }
 
 .sidebar.active { max-height: 405px; }
@@ -1114,7 +1117,9 @@ main {
   line-height: 1.6;
 }
 
-
+.github-list a {
+  color: white;
+}
 
 
 
