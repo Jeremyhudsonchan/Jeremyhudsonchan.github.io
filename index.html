@@ -130,7 +130,7 @@
         - #NAVBAR
       -->
 
-        <nav class="navbar">
+        <!-- <nav class="navbar">
           <ul class="navbar-list">
             <li class="navbar-item">
               <button class="navbar-link active" data-nav-link>About</button>
@@ -142,8 +142,15 @@
               <button class="navbar-link" data-nav-link>Github</button>
             </li>
           </ul>
+        </nav> -->
+        <nav>
+          <ul>
+            <li><a href="#" data-nav-link="home">Home</a></li>
+            <li><a href="#" data-nav-link="about">Resume</a></li>
+            <li><a href="#" data-nav-link="github">Github</a></li>
+          </ul>
         </nav>
-        <script>
+        <!-- <script>
           const navbarLinks = document.querySelectorAll("[data-nav-link]");
 
           navbarLinks.forEach((link) => {
@@ -156,12 +163,12 @@
               }
             });
           });
-        </script>
+        </script> -->
         <!--
         - #ABOUT
       -->
 
-        <article class="about active" data-page="about">
+        <article class="about active" data-page="home">
           <header>
             <h2 class="h2 article-title">About me</h2>
           </header>
@@ -455,7 +462,7 @@
           <!--
         - #GitHub
         -->
-          <article>
+          <article class="github" data-page="github">
             <header>
               <h2 class="h2 article-title">GitHub</h2>
             </header>

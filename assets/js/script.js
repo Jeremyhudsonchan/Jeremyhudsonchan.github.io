@@ -132,8 +132,6 @@ for (let i = 0; i < formInputs.length; i++) {
     }
 
   });
-}
-
 const navbarLinks = document.querySelectorAll('[data-nav-link]');
 
 navbarLinks.forEach(link => {
@@ -146,6 +144,19 @@ navbarLinks.forEach(link => {
     }
   });
 });
+}
+// const navbarLinks = document.querySelectorAll('[data-nav-link]');
+
+// navbarLinks.forEach(link => {
+//   link.addEventListener('click', () => {
+//     const sectionId = link.dataset.navLink;
+//     const section = document.getElementById(sectionId);
+
+//     if (section) {
+//       section.scrollIntoView({ behavior: 'smooth' });
+//     }
+//   });
+// });
 
 // // page navigation variables
 // const navigationLinks = document.querySelectorAll("[data-nav-link]");
