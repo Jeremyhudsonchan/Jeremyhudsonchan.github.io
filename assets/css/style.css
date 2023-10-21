@@ -126,9 +126,11 @@ a {
   padding: 0;
   box-sizing: border-box;
 }
-/* set white color links */
+/* set gradient yellow color links */
 a {
-  color: #ffffff; /* White color */
+  color: var(--orange-yellow-crayola);
+  text-decoration: none;
+  transition: var(--transition-1);
 }
 a { text-decoration: none; }
 
