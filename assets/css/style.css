@@ -126,7 +126,10 @@ a {
   padding: 0;
   box-sizing: border-box;
 }
-
+/* set white color links */
+a {
+  color: #ffffff; /* White color */
+}
 a { text-decoration: none; }
 
 li { list-style: none; }
@@ -1800,7 +1803,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    * REUSED STYLE
    */
 
-  .sidebar, article { width: auto; }
+  .sidebar, article { width: 300px; }
 
   article { min-height: 100%; }
 
