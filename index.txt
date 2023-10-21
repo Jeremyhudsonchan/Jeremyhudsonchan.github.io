@@ -30,7 +30,7 @@ Contact
 About Me
 
 I am a Data Scientist/Machine Learning Engineer @ Ernst & Young. I graduated from Boston College in May 2023 where I studied Computer Science, Mathematics, and Finance. 
-I am passionated about Graph Databases, Generative AI, and am interested in learning more about the applications of Reinforcement Learning and AI in general.
+I am passionate about Graph Databases, Generative AI, and am interested in learning more about the applications of Reinforcement Learning and AI in general.
 I wrote an Honors Thesis for my Computer Science major on the effect of Social Contagion in Police Officer Networks. I have worked as a research assistant in the Social Contagion and NLP fields respectively.
 ## service
 
