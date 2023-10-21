@@ -1350,7 +1350,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .sidebar-info { gap: 25px; }
 
-  .avatar-box { border-radius: 30px; width: 500px; }
+  .avatar-box { border-radius: 30px; }
 
   .avatar-box img { width: 120px; }
 
@@ -1844,7 +1844,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     margin-bottom: 0;
     padding-top: 60px;
     z-index: 1;
-    width: fit-content;
+    width: 100%;
   }
 
   .sidebar-info { flex-direction: column; }
