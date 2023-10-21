@@ -1805,7 +1805,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    * REUSED STYLE
    */
 
-  .sidebar, article { width: 845px; }
+  .sidebar, article { width: 840px; }
 
   article { min-height: 100%; }
 
